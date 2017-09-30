@@ -1,0 +1,153 @@
+@charset "utf-8";
+@import "public";
+
+//header部分
+.regist-header{
+    height:98px;
+    line-height:98px;
+    padding:0 30px;
+    .logo{
+        float:left;
+        width:231px;
+        height:50px;
+        margin-top:24px;
+        background:url(../img/logo.png);
+    }
+    p{
+        float:right;
+        font-size:12px;
+        color:#8c8292;
+        span{
+            padding:0 5px;
+        }
+        a{
+            color:#8c8292;
+        }
+    }
+}
+
+//注册部分
+.regist-cont{
+    height:612px;
+    background:#f9f9f9;
+    padding-left: 433px;
+    form{
+        height:412px;
+    }
+    h3{
+        font-weight: normal;
+        font-size: 20px;
+        color:#523669;
+        padding-top:54px;
+      
+        span{
+            display: block;
+            float:left;
+            height:25px;
+            line-height:25px;
+        }
+        .reg-icon{
+            width:25px;
+            height:25px;
+            margin-right:5px;
+            background-image: url(../img/sprit_biyao.png);
+            background-position: 0px -520px;
+        }
+    }
+    p{
+        padding-top:20px;
+        position: relative;
+        height:45px;
+        &:last-child{
+            padding-top:0px;
+        }
+        .txt{
+            height:40px;
+            width:400px;
+            border:1px solid #e8e8e8;
+            outline: none;
+            text-indent: 20px;
+            color:#c8c8c8;
+            font-size:14px;
+        }
+        #checkMa{
+            width:240px;
+            float:left;
+        }
+        #imgCheckMa{
+            width:200px;
+        }
+        .getImgCheck{
+            display: inline-block;
+            width:100px;
+            height:40px;
+            vertical-align: middle;
+            margin:0 20px;
+            background: url(../img/check1.png);
+        }
+        .changeImg{
+            display: inline-block;
+            width:40px;
+            font-size:12px;
+            color:#a5a5c0;
+            text-decoration: underline;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #getCheckMa{
+            width:140px;
+            border:none;
+            background: #724a88;
+            color:white;
+            line-height:42px;
+            font-size: 16px;
+            float:left;
+            margin-left:18px;
+        }
+        #agree{
+            display: inline-block;
+            width:15px;
+            height:15px;
+            margin-right:10px;
+            vertical-align: middle;
+            outline: none;
+            cursor: pointer;
+        }
+        .deal{
+            color:#07a6df;
+            margin-left:30px;
+            cursor: pointer;
+        }
+        #regBtn{
+            background: #f49f26;
+            color:white;
+            font-size: 20px;
+            height:50px;
+            cursor: pointer;
+        }
+        label{
+            cursor: pointer;
+        }
+        .errorMsg{
+            font-size:12px;
+            color:#f49f26;
+            padding-left:5px;
+        }
+        
+    }
+    .hint{
+        font-size:12px;
+        color:#f49f26;
+        padding-top: 0;
+
+//      display: none;
+    }
+    .checkMaBox{
+        display: none;
+    }
+    .bidu{
+        font-size: 12px;
+        color:#8a8a8a;
+        padding-bottom:20px;
+    }
+}
